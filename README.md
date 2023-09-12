@@ -1,4 +1,4 @@
-# SIH
+# SIH prediction model 
 
 Certainly, I'll explain the prediction phase using some illustrative examples. In this explanation, we'll focus on a simplified scenario with just two features: "Technical Skills" and "Soft Skills," and two possible careers: "Software Engineer" and "Data Scientist." We'll use a 2D scatter plot to visualize the data points and predictions. Please note that in a real-world scenario, you would have more features and career options, making the visualization more complex.
 
