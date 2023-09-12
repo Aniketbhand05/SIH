@@ -1,14 +1,8 @@
 import pandas as pd
 from sklearn.ensemble import RandomForestClassifier
-from sklearn.preprocessing import LabelEncoder
 
-# Sample career data (replace with your data)
-career_data = pd.DataFrame({
-    'Technical Skills': [3, 4, 5, 2, 1, 4, 3, 2, 5, 1],
-    'Soft Skills': [4, 3, 2, 5, 4, 2, 5, 3, 4, 1],
-    'Education Level': ['Bachelor', 'Master', 'PhD', 'Bachelor', 'Associate', 'Master', 'Bachelor', 'PhD', 'Associate', 'Bachelor'],
-    'Career': ['Software Engineer', 'Data Scientist', 'Research Scientist', 'Marketing Manager', 'Sales Representative', 'Engineer', 'Data Analyst', 'Research Assistant', 'Product Manager', 'Customer Service Representative']
-})
+# Load career data from a CSV file
+career_data = pd.read_csv('career_data.csv')
 
 # Get user input for student's skills and education level
 print("Please enter your information:")
